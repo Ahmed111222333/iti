@@ -1,0 +1,39 @@
+.register{
+    margin-top: 5%;
+}
+.register .form-control{
+    background-color: orange;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: 100%;
+    border-radius: 10%;
+}
+.register .form-control input{
+    width: 40%;
+    padding: .7%;
+    border: 3px solid #0f0;
+    border-radius: 20px;
+    margin-bottom: 3.5%;
+}
+.register .form-control label {
+    background-color: #fff;
+    padding: 0.5% 0;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-right: 2%;
+    width: 19%;
+}
+@media(min-width:692px){
+    .register .form-control label {
+      width: 30%;
+    }    
+}
+.register .form-control .main_link{
+    border-radius: 30px;
+    width: 20%;
+    margin: 0 8%;
+    font-size: 20px;
+    font-weight: 600;
+}
