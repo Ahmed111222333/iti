@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="tabs" class="tabs" style="height: 100vh;">
+        <div class="container" data-aos="fade-up">
+  <h1 style="    text-align: center;
+  padding-bottom: 3rem;">John Doe</h1>
+          <ul class="nav nav-tabs row d-flex">
+            <li class="nav-item col-3">
+              <a class="nav-link active show" data-toggle="tab" href="#tab-1">
+                <h4 class=" d-block">Monthly Report</h4>
+              </a>
+            </li>
+            <li class="nav-item col-3">
+                <a class="nav-link" data-toggle="tab" href="#tab-2">
+                  <h4 class=" d-block">Daily Report</h4>
+                </a>
+              </li>
+              <li class="nav-item col-3">
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#Add">
+                  <h4 class=" d-block">Attendance</h4>
+                </a>
+              </li>
+              </ul>
+  
+          <div class="tab-content">
+            <div class="tab-pane active show" id="tab-1">
+              <div class="row">
+                <div class=" order-2 order-lg-1 mt-3 mt-lg-0">
+                    <h3 class="d-inline">Attendance Time : </h3>
+                    <h3 class="d-inline">20</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <h3 class="d-inline">Late Times : </h3>
+                    <h3 class="d-inline">3</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <h3 class="d-inline">Absence Times : </h3>
+                    <h3 class="d-inline">1</h3>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="tab-2">
+              <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                    <h3 class="d-inline">Attendance Time : </h3>
+                    <h3 class="d-inline">20</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <h3 class="d-inline">Late Times : </h3>
+                    <h3 class="d-inline">3</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <h3 class="d-inline">Absence Times : </h3>
+                    <h3 class="d-inline">1</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </section>
+      <div
+      class="modal fade"
+      id="Add"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog  text-center" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="login" style="height: 100vh;">
+                <div class="container">
+                    <div class="text-center">
+                        <div class="row">
+                            <form action="" style="margin-top: 14%; box-shadow: none;" class="form-control login-form">
+                                <div class="text-center">
+                                    <label for="username">User Name</label>
+                                    <input type="text"  style="margin-bottom: 6%;" class="form-control" id="validationDefault01 user" value="" required> 
+                                    <span id="liveusername"></span> 
+                                        <a href="#">Confirm Attance</a>
+                                    </div>
+                                </div>
+                            </form>        
+                        </div>
+                </div>
+            </div>
+                  </div>
+        </div>
+      </div>
+    </div>
+
+      <script src="js/jquery-3.5.1.slim.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/script.js"></script>  
+</body>
+</html>

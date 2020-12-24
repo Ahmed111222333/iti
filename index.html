@@ -1,40 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="register">
+    <div class="login">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <form action="" class="form-control">
-                        <label for="first_name d-block">First Name</label>
-                        <input type="text"> 
-                        <br>           
-                        <label for="last_name d-block">Last Name</label>
-                        <input type="text"> 
-                        <br>           
-                        <label for="Adress d-block">Adress</label>
-                        <input type="text"> 
-                        <br>           
-                        <label for="Email d-block">Email</label>
-                        <input type="email"> 
-                        <br>           
-                        <label for="Age d-block">Age</label>
-                        <input type="number"> 
-                        <br>
-                        <a href="" class="btn btn-primary main_link">Register</a>
-                        <a href="" class="btn btn-primary main_link">Login</a>
-                    </form>
-                </div>
-            </div>
+            <div class="text-center">
+                <div class="row">
+                        <form action="" class="form-control login-form">
+                            <div class="text-center">
+                                <label for="FirstName">First Name</label>
+                                <input type="text" class="form-control" id="validationDefault01 user" value="" required> 
+                                <label for="LastName">Last Name</label>
+                                <input type="text" class="form-control" id="validationDefault01 user" value="" required> 
+                                <label for="Adress">Adress</label>
+                                <input type="text" class="form-control" id="validationDefault01 user" value="" required> 
+                                <label for="Email">Email</label>
+                                <input type="email" class="form-control" id="validationDefault01 user" value="" required> 
+                                <label for="Age">Age</label>
+                                <input type="number" class="form-control" id="validationDefault01 user" value="" required> 
+                                <div class="log mt-4">
+                                    <a href="#">Register</a>
+                                    <a href="#">Log In</a>
+                                </div>
+                            </div>
+                        </form>        
+                    </div>
         </div>
     </div>
+    </div> 
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
